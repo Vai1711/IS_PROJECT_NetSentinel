@@ -1,0 +1,14 @@
+# Pinned for Python 3.11 (all packages have prebuilt wheels, nothing compiles from source).
+pyshark==0.6
+scapy==2.5.0
+SQLAlchemy==2.0.30
+cryptography==42.0.8
+streamlit==1.36.0
+plotly==5.22.0
+networkx==3.3
+reportlab==4.2.2
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==16.1.0   # last line of releases compatible with numpy<2 (Streamlit needs pyarrow)
+Pillow==10.3.0
+nest_asyncio==1.6.0
